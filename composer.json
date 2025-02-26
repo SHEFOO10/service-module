@@ -1,0 +1,35 @@
+{
+    "name": "aquadic/service-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "aquadic",
+            "email": "info@aquadic.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ServiceModule\\": "app/",
+            "Modules\\ServiceModule\\Database\\Factories\\": "database/factories/",
+            "Modules\\ServiceModule\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ServiceModule\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true
+        }
+    }
+}
