@@ -1,6 +1,8 @@
 {
-    "name": "aquadic/service-module",
+    "name": "shefoo10/service-module",
     "description": "",
+    "version": "1.0.0",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "aquadic",
