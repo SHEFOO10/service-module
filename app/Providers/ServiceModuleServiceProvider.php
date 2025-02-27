@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\ServiceModule\Providers;
+namespace Modules\Service\Providers;
 
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Modules\ProductModule\Models\Product;
-use Modules\ServiceModule\Models\Service;
+use Modules\Service\Models\Service;
 use Nwidart\Modules\Traits\PathNamespace;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

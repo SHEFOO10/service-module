@@ -1,14 +1,14 @@
 <?php
 
-namespace Modules\ServiceModule\Filament\Resources;
+namespace Modules\Service\Filament\Resources;
 
 use App\Filament\Helpers\FilamentHelpers;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Modules\CategoryModule\Models\Category;
-use Modules\ServiceModule\Filament\Resources\ServiceResource\Pages;
-use Modules\ServiceModule\Filament\Resources\ServiceResource\RelationManagers;
-use Modules\ServiceModule\Models\Service;
+use Modules\Service\Filament\Resources\ServiceResource\Pages;
+use Modules\Service\Filament\Resources\ServiceResource\RelationManagers;
+use Modules\Service\Models\Service;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\ServiceModule\Providers;
+namespace Modules\Service\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 

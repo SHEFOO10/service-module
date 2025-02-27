@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\ServiceModule\Database\Seeders;
+namespace Modules\Service\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Modules\ServiceModule\Models\Service;
+use Modules\Service\Models\Service;
 
 class ServiceModuleDatabaseSeeder extends Seeder
 {

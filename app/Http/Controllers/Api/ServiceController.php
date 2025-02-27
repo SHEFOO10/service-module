@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\ServiceModule\Http\Controllers\Api;
+namespace Modules\Service\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Modules\ServiceModule\Models\Service;
+use Modules\Service\Models\Service;
 use Nwidart\Modules\Facades\Module;
 
 class ServiceController extends Controller

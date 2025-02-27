@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Modules\ServiceModule\Http\Controllers\Api\ServiceController;
-use Modules\ServiceModule\Http\Controllers\ServiceModuleController;
+use Modules\Service\Http\Controllers\Api\ServiceController;
+use Modules\Service\Http\Controllers\ServiceModuleController;
 
 /*
  *--------------------------------------------------------------------------

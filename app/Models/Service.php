@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\ServiceModule\Models;
+namespace Modules\Service\Models;
 
 use App\Traits\Attributes\HasPrimaryImage;
 use App\Traits\HasTranslatableWithJsonEscape;
